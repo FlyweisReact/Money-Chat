@@ -1,0 +1,411 @@
+/** @format */
+
+.Login_screen {
+  background: linear-gradient(
+      0deg,
+      rgba(238, 238, 238, 0.2) 0%,
+      rgba(238, 238, 238, 0.2) 100%
+    ),
+    #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.Login_screen .Login_Container {
+  max-width: 667px;
+  max-height: 785px;
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+  background: #fff;
+  box-shadow: 0px 10px 30px 3px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.Login_screen .Login_Container .logo {
+  display: block;
+  margin: auto;
+  width: 166px;
+  margin-top: 40px;
+}
+.Login_screen .Login_Container .description {
+  margin-top: 40px;
+}
+.Login_screen .Login_Container .description h6 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Login_screen .Login_Container .description p {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Login_Container .input_container {
+  margin-bottom: 50px;
+}
+.Login_Container .input_container.special {
+  max-height: 300px;
+  padding-bottom: 50px;
+  overflow-y: scroll;
+}
+.Login_Container .input_group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 13px;
+  background: rgba(238, 238, 238, 0.2);
+  box-shadow: 0px 6px 20px 2px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+}
+.Login_Container .input_group img {
+  width: 20px;
+}
+.Login_Container .input_group input {
+  outline: none;
+  border: none;
+  color: #0070bc;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-weight: 600;
+  width: 80%;
+}
+.Login_Container .input_group input.without_color {
+  color: rgba(0, 0, 0, 0.7);
+}
+.Login_Container .input_group input.without_color::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+.Login_Container .input_group input::placeholder {
+  color: #0070bc;
+  font-weight: 600;
+}
+
+.Login_Container .login_btn {
+  max-width: 250px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 15px;
+}
+
+.Login_Container .create_new {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Login_Container .create_new .item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 300px;
+  justify-content: center;
+}
+.Login_Container .create_new .item img {
+  width: 20px;
+}
+.Login_Container .create_new .item span {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Login_Container .create_new .item:first-child {
+  border-right: 2px solid #000;
+  padding-right: 10px;
+}
+
+.Login_Container a {
+  text-decoration: none;
+}
+
+.Login_Container .button_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.Login_Container .button_container button {
+  max-width: 250px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  padding: 15px;
+}
+
+.Login_Container .button_container .cancel {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Login_Container .button_container .cancel a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  background: linear-gradient(180deg, #fea82f 0%, #fd575b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Login_Container .button_container .cancel img {
+  width: 30px;
+}
+
+.Login_Container .progress_bar {
+  border-radius: 10px;
+  background: rgba(196, 196, 196, 0.4);
+  width: 100%;
+  height: 16px;
+  margin-top: 40px;
+}
+
+.Login_Container .progress_bar .colored {
+  width: 33%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #fea82f 0%, #fd575b 100%);
+  height: 100%;
+}
+.Login_Container .progress_bar .second_stage {
+  width: 80%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #fea82f 0%, #fd575b 100%);
+  height: 100%;
+}
+
+.Login_Container .input_container .heading {
+  color: #0070bc;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 20px;
+  padding-bottom: 0;
+  margin-top: 20px;
+}
+
+.Login_Container .whole_button_container {
+  border-radius: 13px;
+  background: rgba(238, 238, 238, 0.2);
+  box-shadow: 0px 6px 20px 2px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.Login_Container .whole_button_container p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Login_Container .whole_button_container button {
+  border-radius: 13px;
+  background: rgba(0, 170, 234, 0.5);
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Login_Container .whole_button_container button.img {
+  width: 20px;
+}
+
+.verify {
+  background: #f0f6f5;
+  width: 100%;
+  height: 100vh;
+}
+.verify img {
+  width: 800px;
+  display: block;
+  margin: auto;
+}
+.verify .colored {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.verify p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Login_Container .Drop_Links {
+  padding: 20px;
+}
+
+.Login_Container .Drop_Links div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.Login_Container .Drop_Links div span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Login_Container .Drop_Links div i {
+  font-size: 18px;
+  color: #fea82f;
+}
+
+/* Navbar */
+.Navbar {
+  background: #fff;
+  box-shadow: 0px 4px 20px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+}
+.Navbar .logo {
+  width: 206px;
+}
+
+.Navbar .search_bar {
+  border-radius: 13px;
+  background: rgba(238, 238, 238, 0.93);
+  max-width: 600px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.Navbar .search_bar input {
+  background-color: transparent;
+  outline: none;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Navbar .search_bar input::placeholder {
+  color: rgba(30, 30, 30, 0.6);
+  font-weight: 600;
+}
+
+.Navbar .side_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  max-width: 250px;
+  width: 100%;
+}
+
+.Navbar .side_div .notify {
+  max-width: 50px;
+  width: 100%;
+}
+.Navbar .side_div .content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Navbar .side_div .content div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar .side_div .content div p {
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Navbar .side_div .content div a {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: normal;
+}
+
+/* ---- */
+.component_style{
+  
+}
