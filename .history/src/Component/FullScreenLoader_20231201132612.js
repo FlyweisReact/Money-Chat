@@ -8,7 +8,7 @@ const FullScreenLoader = ({ show, handleClose }) => {
     if (show) {
       setTimeout(() => {
         handleClose();
-      }, [3000]);
+      }, [1000]);
     }
   }, [show]);
 

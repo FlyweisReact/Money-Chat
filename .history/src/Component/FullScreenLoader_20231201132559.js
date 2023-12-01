@@ -5,12 +5,13 @@ import { Offcanvas } from "react-bootstrap";
 
 const FullScreenLoader = ({ show, handleClose }) => {
   useEffect(() => {
-    if (show) {
+    if(show){
       setTimeout(() => {
         handleClose();
-      }, [3000]);
+      }, [500]);
+    
     }
-  }, [show]);
+   }, [sh]);
 
   return (
     <Offcanvas show={show} onHide={handleClose} className="LoadingCanvas">

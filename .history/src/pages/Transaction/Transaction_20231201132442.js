@@ -131,7 +131,7 @@ const Transaction = () => {
         <div className="Heading_all">
           <h5>Transactions</h5>
           <div className="search">
-            <img src="./Image/15.png" alt="" onClick={() => handleShow()} />
+            <img src="./Image/15.png" alt="" />
             <div>
               <i className="fa-solid fa-magnifying-glass"></i>
               <input type="search" placeholder="Search Transaction" />

@@ -477,7 +477,6 @@
 
 .Heading_all .search img {
   width: 40px;
-  cursor: pointer;
 }
 
 .Heading_all .search div {
@@ -877,7 +876,7 @@ table tbody tr:last-child td:first-child {
   font-weight: 900;
   line-height: normal;
 }
-.LoadingCanvas.offcanvas-backdrop.show {
+.LoadingCanvas .offcanvas-backdrop.show {
   opacity: 0.8 !important;
 }
 /* ----- */
